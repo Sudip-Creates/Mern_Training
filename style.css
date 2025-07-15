@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #00bbff;
+   color: #333;
+ }
+
+
+.header {
+    background-color: #00fbff;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+#introduction {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+
+.header img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Interest section */
+.Interest {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Interest h2 {
+    color: #007acc;
+    margin-bottom: 15px;
+}
+
+.Interest ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.Interest li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+/* Site section */
+.Site {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Site h2 {
+    color: #007acc;
+    margin-bottom: 15px;
+}
+
+.Site a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.Site a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section */
+.Contact {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Contact h2 {
+    color: #007acc;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.Contact input[type="text"],
+.Contact input[type="email"],
+.Contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.Contact button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Contact button:hover {
+    background-color: #005fa3;
+}
